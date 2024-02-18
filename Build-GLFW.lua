@@ -12,6 +12,12 @@ project "GLFW"
 		"src/glfw_config.h",
 		"src/**.c"
 	}
+
+	includedirs
+	{
+		"include"
+	}
+
 	filter "system:linux"
 		pic "On"
 
